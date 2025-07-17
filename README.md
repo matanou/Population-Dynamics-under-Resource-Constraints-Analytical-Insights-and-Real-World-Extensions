@@ -25,3 +25,5 @@ The model equations are:
 
  <img width="355" height="272" alt="Capture" src="https://github.com/user-attachments/assets/4cf7a195-4b64-4f36-a754-fbdddc6be8d0" />
 
+## Transition to Realistic Models (Discrete Replenishment)
+Real-world scenarios usually involve discrete replenishments:
