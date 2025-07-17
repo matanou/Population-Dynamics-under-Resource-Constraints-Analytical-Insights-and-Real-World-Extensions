@@ -29,7 +29,7 @@ The model equations are:
 Real-world scenarios usually involve discrete replenishments:
 
 <img width="493" height="87" alt="image" src="https://github.com/user-attachments/assets/3751f03e-9f0d-4493-8d4a-96558cafdcf8" />
-
+\n
 
 We can numerically simulate this using Euler method:
 
