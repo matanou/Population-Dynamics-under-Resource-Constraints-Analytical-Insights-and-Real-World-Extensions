@@ -28,7 +28,7 @@ The model equations are:
 ## Transition to Realistic Models (Discrete Replenishment)
 Real-world scenarios usually involve discrete replenishments:
 
-<img width="593" height="87" alt="image" src="https://github.com/user-attachments/assets/3751f03e-9f0d-4493-8d4a-96558cafdcf8" />
+<img width="493" height="87" alt="image" src="https://github.com/user-attachments/assets/3751f03e-9f0d-4493-8d4a-96558cafdcf8" />
 
 
 We can numerically simulate this using Euler method:
