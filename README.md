@@ -32,4 +32,4 @@ Real-world scenarios usually involve discrete replenishments:
 
 We can numerically simulate this using Euler method:
 
-<img width="748" height="191" alt="image" src="https://github.com/user-attachments/assets/a2cd97aa-b94a-444e-bbd2-13b81c7e1d1b" />
+<img width="748" height="291" alt="image" src="https://github.com/user-attachments/assets/a2cd97aa-b94a-444e-bbd2-13b81c7e1d1b" />
