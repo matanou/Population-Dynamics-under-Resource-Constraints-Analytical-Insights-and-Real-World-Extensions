@@ -14,7 +14,7 @@ Initially, consider continuous replenishment for analytical tractability. Let:
  
  • R(t): Available resources at time t
  
- • *r*: Intrinsic growth rate
+ • **r**: Intrinsic growth rate
  
  • c: Resource consumption per capita per day
  
