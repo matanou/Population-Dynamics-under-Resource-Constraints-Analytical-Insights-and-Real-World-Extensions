@@ -18,7 +18,6 @@ def simulate(res_init, growth_rate, consumption, Q, tau_weeks):
     steps_per_week = int((1 / 52) / dt)
     steps_per_tau = int((tau_weeks / 52) / dt)
 
-    # Log initial state
     P_vals.append(P)
     R_vals.append(R)
 
@@ -34,7 +33,7 @@ def simulate(res_init, growth_rate, consumption, Q, tau_weeks):
             P_vals.append(P)
             R_vals.append(R)
 
-    time_vals = np.arange(len(P_vals))  # weeks
+    time_vals = np.arange(len(P_vals)) 
     return P_vals, R_vals, time_vals
 
 # Initial params
@@ -56,7 +55,7 @@ line_res, = ax.plot(time_vals, res_vals, label='Resource', color='tab:green')
 
 ax.set_xlabel("Time (weeks)")
 ax.set_ylabel("Population / Resource")
-ax.set_title("Discrete Replenishment Model (Weekly Tracking)")
+ax.set_title("Population Dynamics with Discrete Replenishment (1 Year)")
 ax.legend()
 ax.grid(True)
 ax.set_xlim(0, weeks_total)
