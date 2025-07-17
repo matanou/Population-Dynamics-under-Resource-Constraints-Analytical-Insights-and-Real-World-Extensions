@@ -34,3 +34,21 @@ Real-world scenarios usually involve discrete replenishments:
 We can numerically simulate this using Euler method:
 
 <img width="548" height="291" alt="image" src="https://github.com/user-attachments/assets/a2cd97aa-b94a-444e-bbd2-13b81c7e1d1b" />
+
+## Extensions for Depth and Realism
+### 1. Stochastic Delivery (Bernoulli)
+Consider delivery failures modeled by a Bernoulli random variable:
+
+Use Monte Carlo simulations to study expected population survival.
+ 
+### 2. Advanced Stochastic Delivery (Poisson Process)
+Deliveries follow a Poisson process with rate λ. Inter-arrival times between deliveries are
+exponentially distributed:
+ 
+
+Numerically simulate this process to analyze the variability in population outcomes.
+
+### 3. Age-Structured Population Dynamics
+Divide the population into age groups with different consumption rates and growth rates
+ 
+Investigate resource allocation strategies prioritizing specific age groups.
