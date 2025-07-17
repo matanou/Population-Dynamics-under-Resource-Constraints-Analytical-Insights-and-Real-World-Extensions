@@ -30,6 +30,7 @@ Real-world scenarios usually involve discrete replenishments:
 
 <img width="693" height="87" alt="image" src="https://github.com/user-attachments/assets/3751f03e-9f0d-4493-8d4a-96558cafdcf8" />
 
+
 We can numerically simulate this using Euler method:
 
 <img width="748" height="291" alt="image" src="https://github.com/user-attachments/assets/a2cd97aa-b94a-444e-bbd2-13b81c7e1d1b" />
