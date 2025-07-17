@@ -1,6 +1,0 @@
-"""
-By 'converging parametres' I mean any set of parametres that doesn't cause the population or the resource to diverges. To find most of them I used a program to checks if the absolute value of the "final value" of both the resources and the population is below 100 for a range of parametres. 
-I'll add them when Im satisfied with the set of parametres I get.
-
-The 'simulation time' parametre is the time (in years) at which the system converges, it does not affect the system in any way therefore i would recommend sticking to a high value of simulation time in order to have a global view of the system's growth.
-"""
