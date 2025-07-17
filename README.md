@@ -55,4 +55,5 @@ Dividing the population into age groups with different consumption rates and gro
 
 <img width="589" height="188" alt="image" src="https://github.com/user-attachments/assets/c16f5f43-9cae-4309-ab80-bf6be68365e6" />
  
-Investigate resource allocation strategies prioritizing specific age groups.
+We can therefore investigate resource allocation strategies prioritizing specific age groups.
+
