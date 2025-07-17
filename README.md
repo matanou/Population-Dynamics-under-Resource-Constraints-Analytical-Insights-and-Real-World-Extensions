@@ -23,4 +23,4 @@ Initially, consider continuous replenishment for analytical tractability. Let:
  
 The model equations are:
 
-<img width="1087" height="204" alt="Capture" src="https://github.com/user-attachments/assets/ef2b0d26-2ae3-4c78-a1f1-be4740ac52a9" />
+<img width="755" height="472" alt="Capture" src="https://github.com/user-attachments/assets/4cf7a195-4b64-4f36-a754-fbdddc6be8d0" />
