@@ -36,12 +36,11 @@ We can numerically simulate this using Euler method:
 
 ## Extensions for Depth and Realism
 ### 1. Stochastic Delivery (Bernoulli)
-Consider delivery failures modeled by a Bernoulli random variable:
+We can consider delivery failures modeled by a Bernoulli random variable:
 
 <img width="554" height="138" alt="image" src="https://github.com/user-attachments/assets/96d7e854-a22a-42df-89e5-025a2b26cb4d" />
 
-
-Use Monte Carlo simulations to study expected population survival.
+And sse Monte Carlo simulations to study expected population survival.
  
 ### 2. Advanced Stochastic Delivery (Poisson Process)
 Deliveries follow a Poisson process with rate λ. Inter-arrival times between deliveries are
@@ -49,9 +48,11 @@ exponentially distributed:
  
 <img width="397" height="144" alt="image" src="https://github.com/user-attachments/assets/59c1ad8f-e0ed-4472-81fb-5f8510eb2c34" />
 
-Numerically simulate this process to analyze the variability in population outcomes.
+We can numerically simulate this process to analyze the variability in population outcomes.
 
 ### 3. Age-Structured Population Dynamics
-Divide the population into age groups with different consumption rates and growth rates
+Dividing the population into age groups with different consumption rates and growth rates (Py, Pa, Pe):
+
+<img width="589" height="188" alt="image" src="https://github.com/user-attachments/assets/c16f5f43-9cae-4309-ab80-bf6be68365e6" />
  
 Investigate resource allocation strategies prioritizing specific age groups.
