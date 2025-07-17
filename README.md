@@ -10,6 +10,7 @@ In humanitarian crises such as natural disasters or conflicts, population surviv
 
 ## Initial Model Setup (Continuous Replenishment)
 Initially, consider continuous replenishment for analytical tractability. Let:
+  
   • **P(t)**: Population at time t
  
   • **R(t)**: Available resources at time t
