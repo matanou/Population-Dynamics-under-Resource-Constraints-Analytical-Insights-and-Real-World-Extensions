@@ -23,13 +23,12 @@ Initially, consider continuous replenishment for analytical tractability. Let:
  
 The model equations are:
 
- <img width="355" height="272" alt="Capture" src="https://github.com/user-attachments/assets/4cf7a195-4b64-4f36-a754-fbdddc6be8d0" />
+<img width="355" height="272" alt="Capture" src="https://github.com/user-attachments/assets/4cf7a195-4b64-4f36-a754-fbdddc6be8d0" />
 
 ## Transition to Realistic Models (Discrete Replenishment)
 Real-world scenarios usually involve discrete replenishments:
 
 <img width="493" height="87" alt="image" src="https://github.com/user-attachments/assets/3751f03e-9f0d-4493-8d4a-96558cafdcf8" />
-\n
 
 We can numerically simulate this using Euler method:
 
@@ -38,6 +37,9 @@ We can numerically simulate this using Euler method:
 ## Extensions for Depth and Realism
 ### 1. Stochastic Delivery (Bernoulli)
 Consider delivery failures modeled by a Bernoulli random variable:
+
+<img width="554" height="138" alt="image" src="https://github.com/user-attachments/assets/96d7e854-a22a-42df-89e5-025a2b26cb4d" />
+
 
 Use Monte Carlo simulations to study expected population survival.
  
