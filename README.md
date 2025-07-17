@@ -51,7 +51,7 @@ exponentially distributed:
 We can numerically simulate this process to analyze the variability in population outcomes.
 
 ### 3. Age-Structured Population Dynamics
-Dividing the population into age groups with different consumption rates and growth rates (Py, Pa, Pe):
+Dividing the population into age groups with different consumption rates and growth rates (P<sub>y</sub>, P<sub>a</sub>, P<sub>e</sub>):
 
 <img width="589" height="188" alt="image" src="https://github.com/user-attachments/assets/c16f5f43-9cae-4309-ab80-bf6be68365e6" />
  
