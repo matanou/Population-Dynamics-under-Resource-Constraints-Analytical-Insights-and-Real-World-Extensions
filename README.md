@@ -47,6 +47,7 @@ Use Monte Carlo simulations to study expected population survival.
 Deliveries follow a Poisson process with rate λ. Inter-arrival times between deliveries are
 exponentially distributed:
  
+<img width="397" height="144" alt="image" src="https://github.com/user-attachments/assets/59c1ad8f-e0ed-4472-81fb-5f8510eb2c34" />
 
 Numerically simulate this process to analyze the variability in population outcomes.
 
