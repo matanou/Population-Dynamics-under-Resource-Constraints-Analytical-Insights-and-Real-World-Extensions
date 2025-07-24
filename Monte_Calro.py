@@ -37,7 +37,7 @@ def monte_carlo_average_population(
     runs=1000,
     res_init=20,
     growth_rate=0.03,
-    consumption=0.1,
+    consumption=0.1,               # These hyperparam are arbitrary but based on realistic datas and papers
     Q=1.0,
     tau_weeks=1,
     prob_replenish=0.4
