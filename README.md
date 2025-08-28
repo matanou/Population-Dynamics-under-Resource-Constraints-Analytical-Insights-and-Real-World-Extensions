@@ -34,7 +34,7 @@ We can numerically simulate this using Euler method:
 
 <img width="548" height="291" alt="image" src="https://github.com/user-attachments/assets/a2cd97aa-b94a-444e-bbd2-13b81c7e1d1b" />
 
-## Extensions for Depth and Realism
+## Possible Extensions for Depth and Realism
 ### 1. Stochastic Delivery (Bernoulli)
 We can consider delivery failures modeled by a Bernoulli random variable:
 
