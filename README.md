@@ -21,18 +21,12 @@ For analytical tractability, we begin with **continuous replenishment**.
 
 The coupled system is:
 
-$
-\frac{dP}{dt} = rP\left(1 - \frac{cP}{R}\right),
-$
-$
-\frac{dR}{dt} = q - kP.
-$
+$\frac{dP}{dt} = rP\left(1 - \frac{cP}{R}\right)$,
+$\frac{dR}{dt} = q - kP$,
 
 Equilibrium analysis gives:
 
-$
-P^* = \frac{q}{c}, \quad R^* = q.
-$
+$P^* = \frac{q}{c}, \quad R^* = q.$
 
 Stability is assessed by computing the Jacobian at equilibrium and checking eigenvalues.
 
@@ -44,15 +38,11 @@ In practice, resources arrive at **discrete time intervals** rather than continu
 
 Between deliveries, the system evolves as:
 
-$
-\frac{dP}{dt} = rP\left(1 - \frac{cP}{R}\right), \quad \frac{dR}{dt} = -kP.
-$
+$\frac{dP}{dt} = rP\left(1 - \frac{cP}{R}\right), \quad \frac{dR}{dt} = -kP.$
 
 At delivery times \(t = n\tau\) (with \(n \in \mathbb{N}\)):
 
-$
-R(t^+) = R(t^-) + Q, \quad P(t^+) = P(t^-).
-$
+$R(t^+) = R(t^-) + Q, \quad P(t^+) = P(t^-).$
 
 This defines an **impulsive differential system**, which we simulate numerically (Euler method) to explore how \(Q\) (delivery size) and \(\tau\) (frequency) affect sustainability.
 
@@ -64,13 +54,10 @@ This defines an **impulsive differential system**, which we simulate numerically
 
 Aid delivery is not always successful. Model each delivery with a Bernoulli random variable:
 
-$
-Q_n =
-\begin{cases}
+$Q_n = \begin{cases}
 Q & \text{with probability } p, \\
 0 & \text{with probability } 1-p.
-\end{cases}
-$
+\end{cases}$
 
 This is simulated over many runs. **Monte Carlo methods** are used to compute expected survival and variance, invoking the Law of Large Numbers.
 
@@ -80,9 +67,7 @@ This is simulated over many runs. **Monte Carlo methods** are used to compute ex
 
 Deliveries may follow a **Poisson process** with rate \(\lambda\). Inter-arrival times are exponentially distributed:
 
-$
-\Delta t \sim \text{Exponential}(\lambda).
-$
+$\Delta t \sim \text{Exponential}(\lambda).$
 
 This produces irregular replenishment schedules, allowing analysis of variability in population outcomes.
 
