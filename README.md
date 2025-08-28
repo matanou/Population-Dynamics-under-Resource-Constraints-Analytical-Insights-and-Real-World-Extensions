@@ -54,10 +54,10 @@ This defines an **impulsive differential system**, which we simulate numerically
 
 Aid delivery is not always successful. Model each delivery with a Bernoulli random variable:
 
-$Q_n = \begin{cases}
+$$Q_n = \begin{cases}
 Q & \text{with probability } p, \\
 0 & \text{with probability } 1-p.
-\end{cases}$
+\end{cases}$$
 
 This is simulated over many runs. **Monte Carlo methods** are used to compute expected survival and variance, invoking the Law of Large Numbers.
 
