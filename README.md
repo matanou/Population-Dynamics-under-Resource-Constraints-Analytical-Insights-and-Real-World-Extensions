@@ -40,11 +40,11 @@ Between deliveries, the system evolves as:
 
 $\frac{dP}{dt} = rP\left(1 - \frac{cP}{R}\right), \quad \frac{dR}{dt} = -kP.$
 
-At delivery times \(t = n\tau\) (with \(n \in \mathbb{N}\)):
+At delivery times $t = n\tau$ (with $n \in \mathbb{N}$):
 
 $R(t^+) = R(t^-) + Q, \quad P(t^+) = P(t^-).$
 
-This defines an **impulsive differential system**, which we simulate numerically (Euler method) to explore how \(Q\) (delivery size) and \(\tau\) (frequency) affect sustainability.
+This defines an **impulsive differential system**, which we simulate numerically (Euler method) to explore how $Q$ (delivery size) and $\tau$ (frequency) affect sustainability.
 
 ---
 
@@ -65,7 +65,7 @@ This is simulated over many runs. **Monte Carlo methods** are used to compute ex
 
 ### 2. Advanced Stochastic Delivery (Poisson Process)
 
-Deliveries may follow a **Poisson process** with rate \(\lambda\). Inter-arrival times are exponentially distributed:
+Deliveries may follow a **Poisson process** with rate $\lambda$. Inter-arrival times are exponentially distributed:
 
 $\Delta t \sim \text{Exponential}(\lambda).$
 
