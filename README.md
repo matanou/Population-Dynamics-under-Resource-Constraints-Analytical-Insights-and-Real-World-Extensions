@@ -13,11 +13,11 @@ This project investigates how aid delivery timing and quantity affect long-term 
 
 For analytical tractability, we begin with **continuous replenishment**.
 
-- **\(P(t)\):** Population at time \(t\)  
-- **\(R(t)\):** Available resources at time \(t\)  
-- **\(r\):** Intrinsic growth rate  
-- **\(c\):** Resource consumption per capita  
-- **\(q\):** Continuous replenishment rate  
+- **$P(t)$:** Population at time \(t\)  
+- **$R(t)$:** Available resources at time \(t\)  
+- **$r$:** Intrinsic growth rate  
+- **$c$:** Resource consumption per capita  
+- **$q$:** Continuous replenishment rate  
 
 The coupled system is:
 
